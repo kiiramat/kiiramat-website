@@ -18,9 +18,6 @@ export default function App() {
       </header>
       
       <Outlet />
-      <footer>
-        This is the bottom
-      </footer>
     </div>
   );
 }

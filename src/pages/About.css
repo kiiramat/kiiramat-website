@@ -1,0 +1,8 @@
+.about-div {
+    display: flex;
+    justify-content: center;
+}
+
+.turtle {
+    margin-top: 20px;
+}

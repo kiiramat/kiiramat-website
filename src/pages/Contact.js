@@ -1,7 +1,10 @@
+import envelope from "../images/envelope.png"
+import "./Contact.css"
+
 function Contact() {
     return (
-        <div>
-            <h1>Contact</h1>
+        <div className="contact-div">
+            <img className="envelope" src={envelope} alt="Envelope" />
         </div>
     );
 }
