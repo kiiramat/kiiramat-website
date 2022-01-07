@@ -10,11 +10,11 @@ export default function App() {
       <header className="header">
         <img className="logo" src={logo} alt="Logo" />
         <nav className="navbar">
-          <Link to="/">Projects</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="https://github.com/kiiramat"><GithubIcon className="icon-link" /></Link>
+          <Link className="nav-link" to="/">Projects</Link>
+          <Link className="nav-link" to="/about">About</Link>
+          <Link className="nav-link" to="/contact">Contact</Link>
         </nav>
+        <a href="https://github.com/kiiramat"><GithubIcon className="icon-link" /></a>
       </header>
       
       <Outlet />
