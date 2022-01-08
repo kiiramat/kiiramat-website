@@ -1,5 +1,6 @@
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import InputField from "../components/InputField";
 import envelope from "../images/envelope.png";
 import "./Contact.css";
 
@@ -22,7 +23,10 @@ function Contact() {
             </a>
           </div>
           <div className="vertical">
-            <p>hello</p>
+            <p>Send me a message</p>
+            <InputField />
+            <InputField />
+            <InputField />
           </div>
         </div>
       </div>
