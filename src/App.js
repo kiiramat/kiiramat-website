@@ -15,7 +15,7 @@ export default function App() {
           <Link className="nav-link" to="/about">About</Link>
           <Link className="nav-link" to="/contact">Contact</Link>
         </nav>
-        <a href="https://github.com/kiiramat"><FontAwesomeIcon icon={faGithub} /></a>
+        <a href="https://github.com/kiiramat"><FontAwesomeIcon className="github" icon={faGithub} /></a>
       </header>
       
       <Outlet />
