@@ -1,8 +1,9 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import logo from "./images/logo.png"
-import GithubIcon from "./images/svgs/GithubIcon"
 import './App.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
           <Link className="nav-link" to="/about">About</Link>
           <Link className="nav-link" to="/contact">Contact</Link>
         </nav>
-        <a href="https://github.com/kiiramat"><GithubIcon className="icon-link" /></a>
+        <a href="https://github.com/kiiramat"><FontAwesomeIcon icon={faGithub} /></a>
       </header>
       
       <Outlet />
