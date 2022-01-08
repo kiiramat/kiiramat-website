@@ -10,7 +10,16 @@ function Contact() {
         <div className="horizontal">
           <div className="vertical">
             <img className="envelope" src={envelope} alt="Envelope" />
-            <button><FontAwesomeIcon icon={faEnvelope} /> Mail me</button>
+            <a className="mail-me" href="mailto:kiiramati@gmail.com">
+              <div>
+                <FontAwesomeIcon className="mail-me-icon" icon={faEnvelope} />
+              </div>
+              <div className="mail-me-text">
+                Mail me at 
+                <br/> 
+                <span>kiiramati@gmail.com</span>
+              </div>
+            </a>
           </div>
           <div className="vertical">
             <p>hello</p>

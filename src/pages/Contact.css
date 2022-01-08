@@ -1,7 +1,41 @@
 .contact-container {
-    display: flex;
+  display: flex;
 }
 
 .contact-container .contact-div {
-    width: 100%;
+  width: 100%;
+}
+
+.envelope {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.mail-me {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid transparent;
+  margin: 10px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.mail-me:hover {
+  border: 2px solid #edf0f1;
+  border-radius: 16px;
+  transition-duration: 0.5s;
+}
+
+.mail-me-icon {
+  font-size: 44px;
+  padding-top: 5px;
+}
+
+.mail-me-text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.mail-me-text span {
+    font-weight: bold;
 }
