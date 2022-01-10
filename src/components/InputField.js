@@ -1,11 +1,24 @@
 import React from "react";
+import "./InputField.css"
 
-function InputField() {
-    return (
-        <div>
-            <h1>Hi</h1>
-        </div>
-    )
-}
+const InputField = function (props) {
+  const onInputChange = (event) => {
+    const { name, value } = event.target;
+    props.onInputChange(name, value);
+  };
 
-export default InputField
+  return (
+    <div>
+      <input
+        className="input-field"
+        type="text"
+        name={props.name}
+        placeholder={props.placeholder}
+        onChange={onInputChange}
+        autoComplete="off"
+      />
+    </div>
+  );
+};
+
+export default InputField;

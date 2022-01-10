@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.envelope-mail_me-div {
+  width: 512px;
+}
+
 .envelope {
   margin-top: 100px;
   margin-bottom: 30px;
@@ -38,4 +42,18 @@
 
 .mail-me-text span {
     font-weight: bold;
+}
+
+.message_me-div {
+  width: 512px;
+}
+
+.message-me {
+  font-size: 30px;
+  margin-bottom: 17px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
 }

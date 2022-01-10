@@ -1,0 +1,26 @@
+input {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: none;
+}
+
+.input-field {
+    height: 28px;
+    width: 400px;
+    outline: 0;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #edf0f1;
+    
+}
+
+.input-field::placeholder {
+    font-size: 16px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+}
