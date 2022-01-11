@@ -1,7 +1,10 @@
+import React from "react";
+import TurtleLayout from "../components/TurtleLayout";
+
 function Projects() {
     return (
         <div>
-            <h1>Projects</h1>
+            <TurtleLayout />
         </div>
     );
 }

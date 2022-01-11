@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg4628"
+   sodipodi:docname="projectTurtle.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata4634">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4632" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2488"
+     inkscape:window-height="1376"
+     id="namedview4630"
+     showgrid="true"
+     inkscape:zoom="53.400704"
+     inkscape:cx="54.54463"
+     inkscape:cy="83.131363"
+     inkscape:window-x="1352"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4628">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5179" />
+  </sodipodi:namedview>
+  <path
+     inkscape:connector-curvature="0"
+     id="head"
+     d="m 57,22 -7,-3 -7,3 -2,-12 9,-5 9,5 z"
+     sodipodi:nodetypes="ccccccc" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 50,85 20,-14 8,-19 -8,-24 -9,-4 -4,-2 -7,-3 -7,3 -4,2 -9,4 -8,24 8,19 z"
+     id="body" />
+  <path
+     inkscape:connector-curvature="0"
+     id="left-hand"
+     d="M 39,24 34,17 H 17 l -12.0000004,8 -2,15 L 13,30 30,28.0001 Z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="right-hand"
+     d="m 61,24 5,-7 h 17 v 0 L 95,25 97,40 87,30 70,28 Z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="left-leg"
+     d="m 30,71 -7,10 5,6 h 7 l 5,-9 z" />
+  <path
+     inkscape:connector-curvature="0"
+     id="right-leg"
+     d="m 70,71 7,10 -5,6 h -7 l -5,-9 z" />
+</svg>
