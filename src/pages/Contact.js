@@ -21,6 +21,11 @@ class Contact extends react.Component {
     this.setState({ [name]: value });
   };
 
+  handleSubmit = (event) => {
+    event.preventDefault()
+    console.log("Form Submitted!!!")
+  }
+
   render() {
     return (
       <div className="contact-container">
@@ -40,33 +45,36 @@ class Contact extends react.Component {
               </a>
             </div>
             <div className="vertical message_me-div">
-              <p className="message-me">Send me a message</p>
-              <div className="input-container">
-                <InputField
-                  name="name"
-                  value={this.state.name}
-                  placeholder="Name"
-                  onInputChange={this.onInputChange}
-                />
-                <InputField
-                  name="email"
-                  value={this.state.email}
-                  placeholder="Email Address"
-                  onInputChange={this.onInputChange}
-                />
-                <InputField
-                  name="subject"
-                  value={this.state.subject}
-                  placeholder="Subject"
-                  onInputChange={this.onInputChange}
-                />
-                <p className="message-text-before-textarea">Message:</p>
-                <TextArea
-                  name="message"
-                  value={this.state.message}
-                  onInputChange={this.onInputChange}
-                />
-              </div>
+              <form onSubmit={this.handleSubmit}>
+                <p className="message-me">Send me a message</p>
+                <div className="input-container">
+                  <InputField
+                    name="name"
+                    value={this.state.name}
+                    placeholder="Name"
+                    onInputChange={this.onInputChange}
+                  />
+                  <InputField
+                    name="email"
+                    value={this.state.email}
+                    placeholder="Email Address"
+                    onInputChange={this.onInputChange}
+                  />
+                  <InputField
+                    name="subject"
+                    value={this.state.subject}
+                    placeholder="Subject"
+                    onInputChange={this.onInputChange}
+                  />
+                  <p className="message-text-before-textarea">Message:</p>
+                  <TextArea
+                    name="message"
+                    value={this.state.message}
+                    onInputChange={this.onInputChange}
+                  />
+                  <button className="submit-button">Submit</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

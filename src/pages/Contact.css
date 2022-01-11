@@ -41,10 +41,11 @@
 }
 
 .mail-me-text span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .message_me-div {
+  padding-top: 50px;
   width: 512px;
 }
 
@@ -61,4 +62,21 @@
 .message-text-before-textarea {
   margin-bottom: 10px;
   font-size: 20px;
+}
+
+.submit-button {
+  cursor: pointer;
+  height: 40px;
+  border: 2px solid #edf0f1;
+  border-radius: 5px;
+  background-color: #5b6e91;
+  color: #edf0f1;
+  font-size: 20px;
+  width: 30%;
+}
+
+.submit-button:hover {
+  background-color: #edf0f1;
+  color: #5b6e91;
+  border: 2px solid #5b6e91;
 }
