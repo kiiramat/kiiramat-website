@@ -1,8 +1,16 @@
-.about-div {
-    display: flex;
-    justify-content: center;
+.about-container {
+  display: flex;
 }
 
-.turtle {
-    margin-top: 20px;
+.about-div {
+  width: 100%;
+}
+
+.turtle-portrait {
+  margin-top: 20px;
+}
+
+.about-me-text {
+  width: 800px;
+  font-size: 30px;
 }
