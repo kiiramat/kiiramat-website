@@ -2,6 +2,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import react from "react";
 import InputField from "../components/InputField";
+import TextArea from "../components/TextArea";
 import envelope from "../images/envelope.png";
 import "./Contact.css";
 
@@ -11,13 +12,14 @@ class Contact extends react.Component {
     this.state = {
       name: "",
       email: "",
-      subject: ""
+      subject: "",
+      message: ""
     };
   }
 
   onInputChange = (name, value) => {
-    this.setState({[name]: value});
-  }
+    this.setState({ [name]: value });
+  };
 
   render() {
     return (
@@ -40,24 +42,30 @@ class Contact extends react.Component {
             <div className="vertical message_me-div">
               <p className="message-me">Send me a message</p>
               <div className="input-container">
-                <InputField 
-                name="name" 
-                value= {this.state.name}
-                placeholder="Name"
-                onInputChange={this.onInputChange} 
-              />
-              <InputField 
-                name="email" 
-                value= {this.state.email}
-                placeholder="Email Address"
-                onInputChange={this.onInputChange}
-              />
-              <InputField 
-                name="subject" 
-                value= {this.state.subject}
-                placeholder="Subject"
-                onInputChange={this.onInputChange}
-              />
+                <InputField
+                  name="name"
+                  value={this.state.name}
+                  placeholder="Name"
+                  onInputChange={this.onInputChange}
+                />
+                <InputField
+                  name="email"
+                  value={this.state.email}
+                  placeholder="Email Address"
+                  onInputChange={this.onInputChange}
+                />
+                <InputField
+                  name="subject"
+                  value={this.state.subject}
+                  placeholder="Subject"
+                  onInputChange={this.onInputChange}
+                />
+                <p className="message-text-before-textarea">Message:</p>
+                <TextArea
+                  name="message"
+                  value={this.state.message}
+                  onInputChange={this.onInputChange}
+                />
               </div>
             </div>
           </div>

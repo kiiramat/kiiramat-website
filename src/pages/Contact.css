@@ -57,3 +57,8 @@
   display: flex;
   flex-direction: column;
 }
+
+.message-text-before-textarea {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
