@@ -1,5 +1,6 @@
 .contact-container {
   display: flex;
+  margin-top: 50px;
 }
 
 .contact-container .contact-div {
@@ -7,7 +8,7 @@
 }
 
 .envelope-mail_me-div {
-  width: 512px;
+  width: 700px;
 }
 
 .envelope {
@@ -46,7 +47,7 @@
 
 .message_me-div {
   padding-top: 50px;
-  width: 512px;
+  width: 700px;
 }
 
 .message-me {
