@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #5b6e91;
 }
 
 body {
@@ -14,6 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #edf0f1;
+  background-color: #5b6e91;
 }
 
 a {

@@ -1,5 +1,67 @@
-.turtle-layout-svg {
-    fill: transparent;
-    stroke: white;
-    stroke-width: 0.1px;
+.turtle-layout {
+}
+
+.turtle-layout > div {
+    display: flex;
+    justify-content: center;
+}
+
+.turtle-part  {
+    background-color: #7a8db1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.turtle-layout-top {
+    margin-bottom: -25px;
+}
+
+.turtle-layout-mid {
+
+}
+
+.turtle-layout-bot {
+    margin-top: -73px;
+}
+
+.left-flipper {
+    width: 300px;
+    height: 300px;
+    margin-top: -24px;
+    clip-path: polygon(0 100%, 5% 64%, 35% 40%, 89% 41%, 100% 58.2%, 70% 73%, 26% 79%);
+}
+
+.right-flipper {
+    width: 300px;
+    height: 300px;
+    margin-top: -24px;
+    clip-path: polygon(0 58.2%, 11% 41%, 65% 40%, 96% 64%, 100% 100%, 74% 79%, 31% 73.2%);
+}
+
+.turtle-head {
+    width: 140px;
+    height: 140px;
+    clip-path: polygon(0 25%, 50% 0%, 100% 25%, 85% 100%, 50% 83%, 15% 100%);
+}
+
+.body {
+    width: 450px;
+    height: 500px;
+    margin-top: -132px;
+    clip-path: polygon(50% 0, 86% 16%, 96% 50%, 86% 84%, 49% 100%, 14% 84%, 4% 50%, 14% 16%);
+}
+
+.left-leg {
+    width: 200px;
+    height: 200px;
+    margin-right: 104px;
+    clip-path: polygon(15% 40%, 48% 0, 100% 26.5%, 76% 78%, 35% 75%);
+}
+
+.right-leg {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(0 24.5%, 52% 0, 85% 40%, 65% 75%, 24% 78%);
 }
