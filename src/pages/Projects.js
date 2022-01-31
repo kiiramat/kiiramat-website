@@ -7,9 +7,8 @@ function Projects() {
         <div className="turtle-layout-container">
             <TurtleLayout
                 title="Website"
-                text=""
+                text="You are on it :D"
                 githubHref="https://github.com/kiiramat/kiiramat-website"
-                linkHref="https://kiiramat.com/"
             />
             <TurtleLayout
                 title="Todo List"
