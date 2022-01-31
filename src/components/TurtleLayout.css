@@ -53,6 +53,18 @@
     clip-path: polygon(50% 0, 86% 16%, 96% 50%, 86% 84%, 49% 100%, 14% 84%, 4% 50%, 14% 16%);
 }
 
+.body-title {
+    font-size: 50px;
+    margin-top: -58px;
+    margin-bottom: 10px;
+}
+
+.body-text {
+    width: 335px;
+    font-size: 26px;
+    text-align: center;
+}
+
 .left-leg {
     width: 200px;
     height: 200px;
@@ -64,4 +76,16 @@
     width: 200px;
     height: 200px;
     clip-path: polygon(0 24.5%, 52% 0, 85% 40%, 65% 75%, 24% 78%);
+}
+
+.github-turtle-layout {
+    font-size: 80px;
+    margin-bottom: 32px;
+    margin-left: 26px;
+}
+
+.link-turtle-layout {
+    font-size: 62px;
+    margin-bottom: 35px;
+    margin-left: -25px;
 }

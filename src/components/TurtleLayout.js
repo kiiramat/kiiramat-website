@@ -1,6 +1,9 @@
 import "../components/TurtleLayout.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLine } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
-function TurtleLayout({ title, text }) {
+function TurtleLayout({ title, text, githubHref, linkHref }) {
   return (
     <div className="turtle-layout">
       <div className="turtle-layout-top">
@@ -10,13 +13,17 @@ function TurtleLayout({ title, text }) {
       </div>
       <div className="turtle-layout-mid">
         <div className="turtle-part body">
-          <h2>{title}</h2>
-          <p>{text}</p>
+          <h2 className="body-title">{title}</h2>
+          <p className="body-text">{text}</p>
         </div>
       </div>
       <div className="turtle-layout-bot">
-        <div className="turtle-part left-leg"></div>
-        <div className="turtle-part right-leg"></div>
+        <div className="turtle-part left-leg">
+          <a href={githubHref}><FontAwesomeIcon className="github-turtle-layout" icon={faGithub} /></a>
+        </div>
+        <div className="turtle-part right-leg">
+          <a href={linkHref}><FontAwesomeIcon className="link-turtle-layout" icon={faLink} /></a>
+        </div>
       </div>
     </div>
 
