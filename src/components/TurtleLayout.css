@@ -1,5 +1,5 @@
 .turtle-layout {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .turtle-layout > div {
@@ -79,6 +79,7 @@
   font-size: 50px;
   margin-top: -31px;
   margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 .body-text {
