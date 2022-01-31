@@ -11,7 +11,11 @@ function Projects() {
                 githubHref="https://github.com/kiiramat/timer"
                 linkHref="https://kiiramat.com/timer/"
             />
-            <TurtleLayout title="Project 1" text="Hello this is a project that I did" />
+            <TurtleLayout
+                title="HALF"
+                text="Everybody has annoying (loving) family members who you only want to contact on their birthday and Christmas. I created HALF (Handling Annoying Loving Family) so that I could automate the messages sent to these family members "
+                githubHref="https://github.com/kiiramat/HALF"
+            />
         </div>
     );
 }
