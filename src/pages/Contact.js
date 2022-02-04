@@ -1,9 +1,9 @@
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import react from "react";
+import Envelope from "../components/Envelope";
 import InputField from "../components/InputField";
 import TextArea from "../components/TextArea";
-import envelope from "../images/envelope.png";
 import "./Contact.css";
 
 class Contact extends react.Component {
@@ -32,7 +32,7 @@ class Contact extends react.Component {
         <div className="contact-div">
           <div className="horizontal">
             <div className="vertical envelope-mail_me-div">
-              <img className="envelope" src={envelope} alt="Envelope" />
+              <Envelope />
               <a className="mail-me" href="mailto:kiiramati@gmail.com">
                 <div>
                   <FontAwesomeIcon className="mail-me-icon" icon={faEnvelope} />
