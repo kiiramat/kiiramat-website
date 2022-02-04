@@ -10,7 +10,7 @@ function TurtlePortrait() {
       <svg className="turtle-portrait-svg" viewBox="0 0 100 100" width="100%">
         <g>
           <g
-            style={{ ...defaultStyle, fill: "#edf0f1" }}
+            style={{ ...defaultStyle, fill: "#f0f0f0ec" }}
             transform="matrix(6.6014764,0,0,7.0101069,299.22664,-252.60762)">
             <path
               style={{ defaultStyle }}

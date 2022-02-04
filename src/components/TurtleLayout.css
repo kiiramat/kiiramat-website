@@ -8,7 +8,7 @@
 }
 
 .turtle-part {
-  background-color: #7a8db1;
+  background-color: #f0f0f0ec;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,12 +80,15 @@
   margin-top: -31px;
   margin-bottom: 10px;
   text-decoration: underline;
+  color: #5b6e91;
 }
 
 .body-text {
   width: 335px;
   font-size: 26px;
   text-align: center;
+  color: #5b6e91;
+  font-weight: 600;
 }
 
 .left-leg {
@@ -105,12 +108,14 @@
   font-size: 80px;
   margin-bottom: 32px;
   margin-left: 26px;
+  color: #5b6e91;
 }
 
 .link-turtle-leg {
   font-size: 62px;
   margin-bottom: 35px;
   margin-left: -25px;
+  color: #5b6e91;
 }
 
 .hidden {

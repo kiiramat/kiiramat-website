@@ -2,7 +2,7 @@ import "./Envelope.css";
 
 function Envelope() {
   const defaultStyles = {
-    fill: "#fffff9",
+    fill: "#f0f0f0ec",
     stroke: "none"
   };
 
