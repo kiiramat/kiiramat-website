@@ -4,7 +4,7 @@ import projectsData from "../projectsData";
 import './Projects.css';
 
 function Projects() {
-  const reversedProjectsData = [...projectsData].reverse()
+  const reversedProjectsData = [...projectsData].reverse();
   const projects = reversedProjectsData.map(project => {
     return (
       <TurtleLayout
