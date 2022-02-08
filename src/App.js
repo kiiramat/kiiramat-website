@@ -5,7 +5,7 @@ import './App.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-export default function App() {
+function App() {
   return (
     <div>
       <header className="header">
@@ -22,3 +22,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
